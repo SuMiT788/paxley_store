@@ -1,0 +1,32 @@
+.card {
+  padding: 12px 8px;
+  margin: 5px;
+  color: white;
+  background-color: #262f3b;
+}
+
+.card:hover {
+  background: linear-gradient(
+    45deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%
+  );
+}
+
+body {
+  background-color: #151d2c;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.span-bold {
+  font-weight: bold;
+}
+
+img {
+  height: 30px;
+}
+
+.diamond-div {
+  display: flex;
+  justify-content: space-between;
+}
